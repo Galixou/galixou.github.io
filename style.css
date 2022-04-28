@@ -4,7 +4,7 @@ header {
 
 .projets, .competences {
     text-align: center;
-    background-color: hsl(0, 0%, 57%);
+    background-color: #919191;
     margin-top: 25px;
     padding: 5px;
 }
@@ -15,4 +15,10 @@ h2 {
 
 body{
     background-color: #bbbbbb;
+}
+
+.indexprojet {
+    background-color: #919191;
+    padding: 5px;
+    text-align: center;
 }
