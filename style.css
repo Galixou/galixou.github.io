@@ -4,4 +4,15 @@ header {
 
 .projets, .competences {
     text-align: center;
+    background-color: hsl(0, 0%, 57%);
+    margin-top: 25px;
+    padding: 5px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+body{
+    background-color: #bbbbbb;
 }
