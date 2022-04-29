@@ -17,6 +17,13 @@ body{
     background-color: #bbbbbb;
 }
 
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .indexprojet {
     background-color: #919191;
     padding: 5px;
