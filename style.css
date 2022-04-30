@@ -1,3 +1,7 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     position: absolute;
     top: 0;
@@ -42,7 +46,7 @@ footer h3 {
 }
 
 .retourhaut {
-    position: relative;
+    position: absolute;
     left: 90%;
     bottom: 35px;
 }
