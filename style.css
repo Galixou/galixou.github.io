@@ -1,6 +1,10 @@
+/*forcage de la police d'écriture*/
+
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*stylisation du header*/
 
 header {
     position: absolute;
@@ -22,9 +26,13 @@ header h1 {
     padding-bottom: 5px;
 }
 
+/*espacement des éléments*/
+
 h2 {
     padding-top: 20px;
 }
+
+/*stylisation du body*/
 
 body{
     background-color: #bbbbbb;
@@ -32,6 +40,8 @@ body{
     padding-top: 75px;
     padding-bottom: 75px;
 }
+
+/*stylisation du footer*/
 
 footer {
     position: fixed;
@@ -45,44 +55,446 @@ footer h3 {
     text-align: center;
 }
 
+/*stylisation des liens*/
+
 .retourhaut {
     position: absolute;
     left: 90%;
-    bottom: 35px;
+    bottom: 10px;
+
+    background-color: #2b7f94;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
 }
 
 .projetprecedent {
     position: absolute;
-    right: 7%;
-    top: 30px;
+    right: 10%;
+    top: 10px;
+
+    background-color: #2b7f94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
 }
 
 .projetsuivant {
     position: absolute;
-    right: 3%;
-    top: 30px;
+    right: 1%;
+    top: 10px;
+
+    background-color: #2b7f94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
 }
 
 .accueil {
     position: absolute;
-    left: 3%;
-    top: 30px;
+    left: 1%;
+    top: 10px;
+
+    background-color: #2b7f94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
 }
 
 .accueilprojet {
     position: absolute;
-    left: 7%;
-    top: 30px;
+    left: 8%;
+    top: 10px;
+
+    background-color: #2b7f94;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
 }
 
 .retour {
     position: absolute;
     right: 10%;
-    top: 35px;
+    top: 10px;
+
+    background-color: #2b7f94;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
 }
 
 .suivant {
     position: absolute;
-    right: 3%;
-    top: 35px;
+    right: 1%;
+    top: 10px;
+
+    background-color: #2b7f94;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+
+/* Style des boutons liens*/
+
+#btnprojet {
+    background-color: #9e2222;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btncomp1 {
+    background-color: #C00000;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btncomp2 {
+    background-color: #F79152;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btncomp3 {
+    background-color: #FFC000;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btncomp4 {
+    background-color: #92D050;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btncomp5 {
+    background-color: #07348F;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btncomp6 {
+    background-color: #7C01BE;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*stylisation des boutons sae*/
+
+#btnsae101 {
+    background-color: #C00000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae102 {
+    background-color: #F79152;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae103 {
+    background-color: #FFC000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae104 {
+    background-color: #92D050;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae105 {
+    background-color: #07348F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae106 {
+    background-color: #7C01BE;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae201 {
+    background-color: #C00000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae202 {
+    background-color: #F79152;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae203 {
+    background-color: #FFC000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae204 {
+    background-color: #92D050;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#btnsae206 {
+    background-color: #7C01BE;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*animations des boutons*/
+
+a:hover {
+    opacity: 0.6;
+}
+
+a:active {
+    opacity: 0.3;
 }
